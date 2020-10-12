@@ -28,15 +28,10 @@ contract ERC721 is IERC721, Ownable, Pausable {
     constructor (
         string memory name, 
         string memory symbol, 
-        uint8 decimals, 
-        uint256 totalSupply
     ) public
     {
         _symbol = symbol;
         _name = name;
-        _decimals = decimals;
-        _totalSupply = totalSupply;
-        _balances[msg.sender] = totalSupply;
     }
 
     function name(
@@ -49,18 +44,6 @@ contract ERC721 is IERC721, Ownable, Pausable {
     ) public view returns (string memory)
     {
         return _symbol;
-    }
-
-    function decimals(
-    ) public view returns (uint8)
-    {
-        return _decimals;
-    }
-
-    function totalSupply(
-    ) public view returns (uint256)
-    {
-        return _totalSupply;
     }
 
     function transfer(
