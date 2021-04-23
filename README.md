@@ -1,4 +1,4 @@
-# ERC-721 Token ! UNDER CONSTRUCTION
+# ERC-721 Token (!)under development
 
 This is an example in solidity language of an ERC-721 standard Non Fungible Ethereum Token.
 
