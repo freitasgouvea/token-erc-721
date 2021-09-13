@@ -8,12 +8,16 @@ ERC-721 is a standard interface for non-fungible tokens.
 
 More Information about Solidity Language and ERC-721 Standard:
 
-- [Solidity](https://solidity.readthedocs.io/en/v0.6.8/): `v0.6.8`
+- [Solidity](https://solidity.readthedocs.io/en/v0.8.0/): `v0.8.0`
 - [ERC-721](https://eips.ethereum.org/EIPS/eip-721)
 
 ## ERC-721 Methods
 
-## ERC-721 Modules in this example
+This implementation is based on Open Zeppellin full ERC-721 library.
+
+To see all methods access:
+
+- [OppenZeppelin-ERC-721](https://docs.openzeppelin.com/contracts/3.x/api/token/erc721)
 
 ## Requeriments to run this repositorie
 
@@ -39,7 +43,7 @@ truffle compile
 
 After running, contract information &mdash; including ABI &mdash; will be available at the `build/contracts/` directory.
 
-### Run tests on Truffle
+### Run tests on Truffle (Under Development)
 
 This contract can be fully tested with truffle.
 
@@ -62,6 +66,8 @@ Create .env file on root with:
 ```
 MNENOMIC = // Your metamask's recovery words
 INFURA_API_KEY = // Your Infura API Key after its registration
+TOKEN_NAME = 'NFT Example'
+TOKEN_SYMBOL = 'NFT'
 ```
 Run migrate command
 
