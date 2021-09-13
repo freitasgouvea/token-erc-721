@@ -1,4 +1,4 @@
-# ERC-721 Token (!)under development
+# ERC-721 Token
 
 This is an example in solidity language of an ERC-721 standard Non Fungible Ethereum Token.
 
@@ -17,7 +17,7 @@ This implementation is based on Open Zeppellin full ERC-721 library.
 
 To see all methods access:
 
-- [OppenZeppelin-ERC-721](https://docs.openzeppelin.com/contracts/3.x/api/token/erc721)
+- [OpenZeppelin-ERC-721](https://docs.openzeppelin.com/contracts/3.x/api/token/erc721)
 
 ## Requeriments to run this repositorie
 
